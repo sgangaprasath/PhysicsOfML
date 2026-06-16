@@ -528,7 +528,7 @@ Combining~\eqref{eq:shift_int} and~\eqref{eq:diagonal_int} gives~\eqref{eq:gauss
 
 \end{groupplot}
 \end{tikzpicture}
-\caption{Level sets (constant-density contours) of 2-D Gaussians. Left: isotropic ($\mathbf{C}=\mathbf{I}$), circular contours. Centre: positive correlation $\rho=0.7$, ellipse tilted at $45°$. Right: negative correlation $\rho=-0.7$, ellipse tilted at $-45°$. Dashed red lines mark the principal axes (eigenvectors of $\mathbf{C}$).}
+\caption{Level sets (constant-density contours) of 2-D Gaussians. Left: isotropic ($\mathbf{C}=\mathbf{I}$), circular contours. Centre: positive correlation $\rho=0.7$, ellipse tilted at $45^\circ$. Right: negative correlation $\rho=-0.7$, ellipse tilted at $-45^\circ$. Dashed red lines mark the principal axes (eigenvectors of $\mathbf{C}$).}
 \label{fig:2d_gaussian}
 \end{figure*}
 
@@ -846,7 +846,7 @@ After this transformation the exponent is \emph{linear} in each $\sigma_i$: the 
 ]
 % ---- Left: all-to-all coupling ----
 \begin{scope}
-\node[font=\small,anchor=north] at (1.3,0.4) {Before HS};
+\node[font=\small,anchor=north] at (1.3,-3) {Before HS};
 \foreach \i/\a in {1/90,2/18,3/306,4/234,5/162}{
   \node[spin] (L\i) at ({1.3+1.1*cos(\a)},{1.1*sin(\a)-1.2}) {$\sigma_{\i}$};
 }
@@ -866,7 +866,7 @@ After this transformation the exponent is \emph{linear} in each $\sigma_i$: the 
 
 % ---- Right: auxiliary field coupling ----
 \begin{scope}[xshift=5.0cm]
-\node[font=\small,anchor=north] at (1.3,0.4) {After HS};
+\node[font=\small,anchor=north] at (1.3,-3) {After HS};
 % auxiliary field node
 \node[draw=resultframe,fill=resultbox,rounded corners=4pt,
       minimum size=0.7cm,font=\small] (m) at (1.3,-1.2) {$m$};
